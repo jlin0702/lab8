@@ -1,21 +1,3 @@
-//exercise 1
-//function to validate password
-function validate() {
-    //gets each value
-    let password = document.getElementById("pass").value;
-    let verify = document.getElementById("verify").value;
-    //compare values
-    if (password != verify) {
-        alert("Error! Passwords don't match!");
-    }
-    else if (password.length < 8) {
-        alert("Error! Password must be at least 8 characters!");
-    }
-    else {
-        alert("Valid!");
-    }
-}
-
 //exercise 2
 const images = ["image1.jpg", "image2.jpg", "image3.jpg", "image4.jpg", "image5.jpg"];
 let index = 0;
